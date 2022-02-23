@@ -1,0 +1,13 @@
+.body {
+    font-family: monospace;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: space-between;
+    margin: 10px;
+}
+
+.div {
+    color: darkred;
+}
