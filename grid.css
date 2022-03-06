@@ -1,0 +1,35 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(2 1fr);
+    grid-gap: 15px;
+    width: 85%;
+    height: 80%;
+    background-color: #0000;
+    box-shadow: 4px 12px #11012d;
+    padding: 10px;
+}
+
+.grid-element1 {
+    background-color: #11012d;
+}
+
+.grid-element2 {
+    background-color: aqua;
+}
+
+.grid-element3 {
+    background-color: black;
+}
+
+.grid-element4 {
+    background-color: darkmagenta;
+}
+
+.grid-element5 {
+    background-color: chocolate;
+}
+
+.grid-element6 {
+    background-color: darkgreen;
+}
